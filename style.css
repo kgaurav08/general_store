@@ -1,0 +1,91 @@
+/* Reset some default browser styles */
+body, h2, form, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styles to the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b5e6ba;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Style the form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the candy item list */
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+li {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+li span:first-child {
+    font-weight: bold;
+}
+
+/* Style the "Buy" buttons */
+.btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: #1e7e34;
+}
